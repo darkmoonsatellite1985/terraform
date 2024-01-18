@@ -94,7 +94,7 @@ data "aws_iam_policy_document" "Instance-yrbl-j_iam_policy_document" {
 
 data "aws_ami" "ubuntu_latest" {
       most_recent = true
-      owners = ["099720109472"]
+      owners = ["099720109475"]
       filter {
         name = "name"
         values = ["ubuntu/images/hvm-ssd/ubuntu-focal-20.04-amd64*"]
