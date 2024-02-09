@@ -34,7 +34,7 @@ resource "aws_s3_bucket_lifecycle_configuration" "test_a2aJdvb9QZ9zbjvF" {
     filter {}
     status = "Enabled"
     transition {
-      days          = 11
+      days          = 12
       storage_class = "GLACIER"
     }
   }
